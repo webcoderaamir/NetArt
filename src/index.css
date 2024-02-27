@@ -23,13 +23,10 @@
 .img1{
     width: 25vw;
     height: 18vh;
-}
-
-.img1 img{
-    max-width: 100%;
-    max-height: 100%;
+    /* background-color: red; */
     background-position: center;
     background-size: cover;
+    background-image: url(../src/assets/images/logo.png);
 }
 
 .hero{
@@ -178,14 +175,14 @@
         height: auto;
     }
     .about{
-        height: 100vh;
+        height: 95vh;
     }
     .img3{
         width: 100%;
     }
     .img4{
         height: auto;
-        padding: 2.5vh;
+        padding: 2vh;
     }
     .socials{
         display: flex;

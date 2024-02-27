@@ -10,7 +10,7 @@ const About = () => {
             <ul>INSTALLED OVER 10 LAKHS STAR RATED PUMPSETS ACROSS THE COUNTRY RESULTING IN A CUMULATIVE SAVING OF MORE THAN 9,000 MILLION UNITS OF POWER FOR THE NATION.</ul>
         </div>
         <div className="img4">
-            <img src="../src/assets/images/3.png" alt="" />
+            <img src="http://localhost:5173/src/assets/images/3.png" alt="" />
             <ul>Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors</ul>
         </div>
         <div className="text4">
