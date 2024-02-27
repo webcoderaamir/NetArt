@@ -53,15 +53,15 @@
     /* background-color: orange; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     overflow: hidden;
 }
 
 .img2 img{
     max-width: 100%;
     max-height: 100%;
-    background-position: center;
     background-size: cover;
+    background-position: center;
 }
 
 .right{
@@ -175,14 +175,14 @@
         height: auto;
     }
     .about{
-        height: 95vh;
+        height: 100vh;
     }
     .img3{
         width: 100%;
     }
     .img4{
         height: auto;
-        padding: 2vh;
+        padding: 2.5vh;
     }
     .socials{
         display: flex;

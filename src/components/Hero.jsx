@@ -1,4 +1,6 @@
 import React from "react";
+import image1 from '../assets/images/1.png';
+import image2 from '../assets/images/2.png';
 
 const Hero = () => {
   return (
@@ -6,7 +8,7 @@ const Hero = () => {
       <div className="box">
         <div className="left">
           <div className="img2">
-              <img src="http://localhost:5173/src/assets/images/1.png" alt="" />
+              <img src={image1} alt="" />
           </div>
         </div>
 
@@ -19,7 +21,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="img3">
-                <img src="http://localhost:5173/src/assets/images/2.png" alt="" />
+                <img src={image2} alt="" />
             </div>
             <div className="text2">
                 <ul>Government of India has awarded the "National Energy Conservation Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</ul>
